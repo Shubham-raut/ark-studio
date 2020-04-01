@@ -31,20 +31,15 @@ body{
     width: 67%;    
     align-items: center;
     padding: 20px;
+    justify-content: space-between;
 }
-.headerLogo{ 
-    flex-basis: 65%;   
-}
-img{
-    width: 65px;
+.nav_bar img{ 
+    height: 55px;
 }
 
 #nav_list{
     display: flex;
-    flex-basis: 30%;
     list-style-type: none;
-    justify-content: space-between;
-    
 }
 #nav_list li{
     cursor: pointer;
@@ -53,7 +48,7 @@ img{
 
 #nav_list li:hover{
     background-color: rgb(65, 65, 65);
-    border-radius: 10%;
+    border-radius: 15%;
     color: rgb(222, 222, 222);
 }
 

@@ -6,28 +6,32 @@
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
-        <section class="topContainer">
-            <nav class="nav_bar">
-                <div class="headerContent">
+        <section class="container">
+            <header class="transparent_nav">
+                <nav class="nav_bar">
                     <div class="headerLogo">
                         <img src="img/logo.png" alt="logo">
-                    </div>    
-                    <ul id="nav_list">
-                        <li><a href="Our Story" id="nav_item_1"></a>Our Story</li>
-                        <li><a href="Products" id="nav_item_2"></a>Products</li>
-                        <li><a href="Journal" id="nav_item_3"></a>Journal</li>
-                        <li><a href="Contact" id="nav_item_4"></a>Contact</li>
-                    </ul>
-                </div>
-            </nav> 
-            <div class="headerStyleBot">
-                <div class="headerContentBot">
-                    <div class="cta">
-                        <p id="cta_text">Have a project in mind? We would love to hear from you!</p>
                     </div>
-                    <a href="#" id="cta_link">GET IN TOUCH WITH US</a>
-                </div>
-            </div>
+                    <ul id="nav_list">
+                        <li>
+                            <a href="Our Story" id="nav_item_1"></a>Our Story
+                        </li>
+                        <li>
+                            <a href="Products" id="nav_item_2"></a>Products
+                        </li>
+                        <li>
+                            <a href="Journal" id="nav_item_3"></a>Journal
+                        </li>
+                        <li>
+                            <a href="Contact" id="nav_item_4"></a>Contact
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </section>
+        <section class="cta">
+            <p id="cta_text">Have a project in mind? We would love to hear from you!</p>
+            <a href="#" id="cta_link">GET IN TOUCH WITH US</a>
         </section>
         <section class="services wrapper">
             <div class="serviceHead">
@@ -41,20 +45,17 @@
                     <li>
                         <img src="img/s1.png" alt="img-1">
                         <h3>Lorem ipsum dolor sit.</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur 
-                        adipisicing elit. Ipsa, fuga.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, fuga.</p>
                     </li>
                     <li>
                         <img src="img/s2.png" alt="img-2">
                         <h3>Lorem ipsum dolor sit.</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur 
-                        adipisicing elit. Ipsa, fuga.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, fuga.</p>
                     </li>
                     <li>
                         <img src="img/s3.png" alt="img-3">
                         <h3>Lorem ipsum dolor sit.</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur 
-                        adipisicing elit. Ipsa, fuga.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, fuga.</p>
                     </li>
                 </ul>
             </div>
@@ -73,25 +74,28 @@
             <ul class="info">
                 <li>
                     <img src="img/client1.jpg" alt="img-1">
-                    <div class="client"><b>John doe</b>/Manager</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Voluptates impedit quod!</p>
+                    <div class="client">
+                        <b>John doe</b>/Manager
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit quod!</p>
                 </li>
                 <li>
                     <img src="img/client2.jpg" alt="img-2">
-                    <div class="client"> <b>John doe</b>/ceo</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Voluptates impedit quod!</p>
+                    <div class="client">
+                        <b>John doe</b>/ceo
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit quod!</p>
                 </li>
                 <li>
                     <img src="img/client3.jpg" alt="img-3">
-                    <div class="client"><b>John doe</b>/owner</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Voluptates impedit quod!</p>
+                    <div class="client">
+                        <b>John doe</b>/owner
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit quod!</p>
                 </li>
             </ul>
         </section>
-        <div class="downImg">
+        <div class="logos">
             <div class="repeat">
                 <img src="img/client_logo.png" alt="clint logo">
                 <img src="img/client_logo.png" alt="clint logo">
@@ -99,52 +103,59 @@
                 <img src="img/client_logo.png" alt="clint logo">
                 <img src="img/client_logo.png" alt="clint logo">
                 <img src="img/client_logo.png" alt="clint logo">
-            </div> 
+            </div>
         </div>
         <footer>
+            <nav class="footerHead">
+                <p class="footerHeadText">
+                    Have a project in mind? We would love to hear from you!
+                </p>
+                <a href="#" class="footerLinkBot">GET IN TOUCH WITH US</a>
+            </nav>
             <div class="footer_widget">
-                <div class="footerStyle">
-                    <div class="footerHead">
-                        <div class="footerHeadText">
-                            Have a project in mind? We would love to hear from you!
-                        </div>
-                        <a href="#" class="footerLinkBot">GET IN TOUCH WITH US</a>
-                    </div>
-                    <div  class="footerBot">
-                        <div class="footerBotCont">
-                            <h3>Location</h3>
-                            <div class="gap10px"></div>
-                            <p>Lorem ipsum Beatae in dolorum nihil quasi magnam laborum!</p>
-                            <div class="imgs">
-                                <img src="img/social_hover.png" class="imgHover" alt="social hover">
-                                <img src="img/social.png" alt="social">
-                            </div>
-                        </div>
-                        <div class="footerBotCont">
-                            <h3>Company</h3>
-                            <ul id="comp_list">
-                                <li><a id="comp_item_1" href="Our Story">Our Story</a></li>
-                                <li><a id="comp_item_2" href="Mission">Mission</a></li>
-                                <li><a id="comp_item_3" href="Journal">Journal</a></li>
-                                <li><a id="comp_item_4" href="Carrers">Careers</a></li>
-                            </ul>
-                        </div>
-                        <div class="footerBotCont">   
-                            <h3>Support</h3>
-                            <ul id="sup_list">
-                                <li><a id="sup_item_1" href="FAQ">FAQ</a></li>
-                                <li><a id="sup_item_2" href="Contact Us">Contact Us</a></li>
-                                <li><a id="sup_item_3" href="Policies">Policies</a></li>
-                            </ul>
-                        </div>
-                        <div class="footerBotCont">
-                            <h3>ARK Studio</h3>
-                            <p>Lorem ipsum dolor Itaque, voluptatibus accusantium nemo nihil dolorem.</p>
-                        </div>
-                    </div>
+                <div class="footerBotCont1">
+                    <h3>Location</h3>
+                    <p>Lorem ipsum Beatae in dolorum nihil quasi magnam laborum!</p>
+                    <img src="img/social_hover.png" class="imgHover" alt="social hover">
+                    <img src="img/social.png" alt="social">
+                </div>
+                <div class="footerBotCont">
+                    <h3>Company</h3>
+                    <ul id="comp_list">
+                        <li>
+                            <a id="comp_item_1" href="Our Story">Our Story</a>
+                        </li>
+                        <li>
+                            <a id="comp_item_2" href="Mission">Mission</a>
+                        </li>
+                        <li>
+                            <a id="comp_item_3" href="Journal">Journal</a>
+                        </li>
+                        <li>
+                            <a id="comp_item_4" href="Carrers">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footerBotCont">
+                    <h3>Support</h3>
+                    <ul id="sup_list">
+                        <li>
+                            <a id="sup_item_1" href="FAQ">FAQ</a>
+                        </li>
+                        <li>
+                            <a id="sup_item_2" href="Contact Us">Contact Us</a>
+                        </li>
+                        <li>
+                            <a id="sup_item_3" href="Policies">Policies</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footerBotCont">
+                    <h3>ARK Studio</h3>
+                    <p>Lorem ipsum dolor Itaque, voluptatibus accusantium nemo nihil dolorem.</p>
                 </div>
             </div>
-            <p class="rights"><span></span>2014 ARK Studio - All Rights Reserved</p>
+            <p class="rights">2014 ARK Studio - All Rights Reserved</p>
         </footer>
     </body>
 </html>

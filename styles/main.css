@@ -22,19 +22,20 @@ body{
     height: 60px;
     width: 100%;
     display: flex;
-    justify-content: center;  
+    flex-direction: row;
+    justify-content: space-between; 
     position: fixed;
 }
 
 .nav_bar{  
-    display: flex;
-    width: 67%;    
+    display: flex;    
     align-items: center;
     padding: 20px;
-    justify-content: space-between;
+    padding-right: 16%;
 }
-.nav_bar img{ 
+.transparent_nav img{ 
     height: 55px;
+    padding-left: 16%;
 }
 
 #nav_list{
@@ -43,7 +44,7 @@ body{
 }
 #nav_list li{
     cursor: pointer;
-    padding:2px;
+    padding:5px;
 }
 
 #nav_list li:hover{
@@ -51,6 +52,7 @@ body{
     border-radius: 15%;
     color: rgb(222, 222, 222);
 }
+
 
 .cta{
     background-color: rgba(235, 235, 235, 0.7);
